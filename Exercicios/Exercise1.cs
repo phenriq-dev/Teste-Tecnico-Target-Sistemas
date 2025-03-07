@@ -17,7 +17,7 @@ namespace Exercises
                 sum = sum + k;
             }
             Console.WriteLine();
-            Console.WriteLine("Result: " + sum);
+            Console.WriteLine("Resultado: " + sum);
         }
     }
 }

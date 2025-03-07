@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Exercises
 {
@@ -11,26 +7,27 @@ namespace Exercises
         public static void Run()
         {
             Console.WriteLine();
-            Console.Write("Enter a number to check if it belongs to the Fibonacci sequence: ");
+            Console.Write("Digite um número para verificar se ele pertence à sequência de Fibonacci: ");
             int number = int.Parse(Console.ReadLine());
 
-            int a = 0, b = 1, fib = 0;
-
-            while (fib < number) {
-
-                fib = a + b;
-                a = b;
-                b = fib;
-
-            }
+            bool isFibonacci = IsFibonacci(number, 0, 1);
 
             Console.WriteLine();
 
-            if (fib == number)
-                Console.WriteLine($"The number {number} belongs to the Fibonacci sequence.");
+            if (isFibonacci)
+                Console.WriteLine($"O número {number} pertence à sequência de Fibonacci.");
             else
-                Console.WriteLine($"The number {number} does not belong to the Fibonacci sequence.");
+                Console.WriteLine($"O número {number} não pertence à sequência de Fibonacci.");
+        }
 
+        public static bool IsFibonacci(int number, int a, int b)
+        {
+            if (a == number)
+                return true;
+            if (a > number)
+                return false;
+
+            return IsFibonacci(number, b, a + b);
         }
     }
 }

@@ -75,7 +75,6 @@ namespace Exercises
                                 Value = data.Value
                             });
                         }
-                        // Processar os dados
                         ProcessData(listRevenueDataXML);
                     }
                 }
