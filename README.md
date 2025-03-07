@@ -13,8 +13,8 @@ Este repositório contém uma série de exercícios realizados como parte de um 
 ## Tecnologias Utilizadas
 
 - C#
-- Visual Studio 2022 (IDE)
-- .NET Core 8
+- Visual Studio (IDE)
+- .NET 8 (para suporte à *switch expression*)
 
 ## Recursão no Exercício 2 e Exercício 5
 
@@ -22,8 +22,12 @@ Este repositório contém uma série de exercícios realizados como parte de um 
 
 - **Exercício 5**: No **Exercício 5**, também optei por utilizar **recursão** para inverter a string. Em vez de usar funções prontas como `reverse`, a recursão permite que a string seja quebrada em caracteres menores, invertendo-os de forma eficiente. Essa abordagem reforça o conceito de dividir o problema em partes menores e aplicar a lógica recursiva para resolver o problema.
 
+## Uso da Switch Expression no .NET 8
+
+- **Switch Expression**: No código, utilizei a **switch expression**, um recurso poderoso introduzido no **.NET 8**. Esse recurso permite escrever expressões de forma mais concisa e legível, tornando o código mais direto e menos propenso a erros. Em vez de utilizar a estrutura tradicional de `switch` com `case`, a *switch expression* permite retornar valores diretamente a partir das condições, facilitando a legibilidade e manutenção do código.
+
 ## Conclusão
 
-Este repositório mostra minha capacidade de resolver problemas utilizando C# e aplicar diferentes conceitos de programação, incluindo a recursão. Os exercícios demonstram minha habilidade de análise e resolução de problemas de forma eficaz e concisa.
+Este repositório mostra minha capacidade de resolver problemas utilizando C# e aplicar diferentes conceitos de programação, incluindo a recursão e a *switch expression* do .NET 8. Os exercícios demonstram minha habilidade de análise e resolução de problemas de forma eficaz e concisa.
 
 Fique à vontade para explorar o código. Agradeço por revisar meu trabalho!
