@@ -13,8 +13,8 @@ Este repositório contém uma série de exercícios realizados como parte de um 
 ## Tecnologias Utilizadas
 
 - C#
-- Visual Studio (IDE)
-- .NET Framework
+- Visual Studio 2022 (IDE)
+- .NET Core 8
 
 ## Recursão no Exercício 2 e Exercício 5
 
